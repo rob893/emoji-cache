@@ -2,6 +2,8 @@
 
 LRU cache implementation but all identifiers are emojis.
 
+Yes. This is actually valid code and does indeed work.
+
 ## But why?
 
 Irrelevant. This exists now.
