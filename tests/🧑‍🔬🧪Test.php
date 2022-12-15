@@ -5,9 +5,11 @@ declare(strict_types=1);
 use PHPUnit\Framework\TestCase;
 use rob893\EmojiCache\🐆🐆🐆;
 
-class 🧑‍🔬🧪Test extends TestCase {
+class 🧑‍🔬🧪Test extends TestCase
+{
 
-  public function test☢️☢️☢️️(): void {
+  public function test☢️☢️☢️️(): void
+  {
     $😈 = new 🐆🐆🐆();
 
     $🔑 = 'foo';
@@ -38,5 +40,4 @@ class 🧑‍🔬🧪Test extends TestCase {
     // Check size again.
     $this->assertEquals(0, $😈->👙💩🖇());
   }
-
 }
