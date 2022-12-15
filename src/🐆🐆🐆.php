@@ -1,22 +1,8 @@
 <?php
-class 🦘️🦘️🦘️
-{
-    public $🔑;
 
-    public $🐬;
+declare(strict_types=1);
 
-    public ?🦘️🦘️🦘️ $👉;
-
-    public ?🦘️🦘️🦘️ $👈;
-
-    public function __construct($🔑, $🐬, ?🦘️🦘️🦘️ $👉 = null, ?🦘️🦘️🦘️ $👈 = null)
-    {
-        $this->🔑 = $🔑;
-        $this->🐬 = $🐬;
-        $this->👉 = $👉;
-        $this->👈 = $👈;
-    }
-}
+namespace rob893\EmojiCache;
 
 class 🐆🐆🐆
 {
