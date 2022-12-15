@@ -8,6 +8,14 @@ Yes. This is actually valid code and does indeed work.
 
 Irrelevant. This exists now.
 
+## Installation
+
+Install using composer.
+
+```
+composer require rob893/emoji-cache
+```
+
 ## Usage:
 
 ```php
