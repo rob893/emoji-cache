@@ -1,6 +1,6 @@
 {
   "name": "rob893/emoji-cache",
-  "version": "v1.0.1",
+  "version": "v1.0.2",
   "description": "LRU cache implementation but all identifiers are emojis.",
   "type": "library",
   "keywords": [
