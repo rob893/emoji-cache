@@ -116,8 +116,8 @@ class 🐆🐆🐆
     {
         $this->❌🦀🗿($🐙);
 
-        if ($this->🤔🤔🤔($🐙)) {
-            unset($this->🌋[$🐙]);
+        if ($this->🤔🤔🤔($🐙->🔑)) {
+            unset($this->🌋[$🐙->🔑]);
             return true;
         }
 
