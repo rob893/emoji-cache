@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace rob893\EmojiCache\Tests;
 
+use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 use rob893\EmojiCache\🐆🐆🐆;
@@ -127,6 +128,22 @@ final class 🧑‍🔬🧪Test extends TestCase
         $this->assertSame(1, $😈->👙💩🖇());
         $this->assertFalse($😈->🤔🤔🤔('a'));
         $this->assertSame(2, $😈->🤔🤞😃('b'));
+    }
+
+    #[Test]
+    public function 🚫🔢💥(): void
+    {
+        $this->expectException(InvalidArgumentException::class);
+
+        new 🐆🐆🐆(0);
+    }
+
+    #[Test]
+    public function ➖🔢💥(): void
+    {
+        $this->expectException(InvalidArgumentException::class);
+
+        new 🐆🐆🐆(-5);
     }
 
     #[Test]
