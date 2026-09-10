@@ -4,21 +4,27 @@ declare(strict_types=1);
 
 namespace rob893\EmojiCache;
 
-class 🦘️🦘️🦘️
+/**
+ * A node in the cache's doubly linked recency list.
+ *
+ * Internal to the cache. 👉 points toward the least recently used end,
+ * 👈 toward the most recently used end.
+ */
+final class 🦘️🦘️🦘️
 {
-    public $🔑;
+    /** Next node, toward the least recently used end. */
+    public ?🦘️🦘️🦘️ $👉 = null;
 
-    public $🐬;
+    /** Previous node, toward the most recently used end. */
+    public ?🦘️🦘️🦘️ $👈 = null;
 
-    public ?🦘️🦘️🦘️ $👉;
-
-    public ?🦘️🦘️🦘️ $👈;
-
-    public function __construct($🔑, $🐬, ?🦘️🦘️🦘️ $👉 = null, ?🦘️🦘️🦘️ $👈 = null)
-    {
-        $this->🔑 = $🔑;
-        $this->🐬 = $🐬;
-        $this->👉 = $👉;
-        $this->👈 = $👈;
+    /**
+     * @param int|string $🔑 Cache key this node holds.
+     * @param mixed      $🐬 Cached value.
+     */
+    public function __construct(
+        public readonly int|string $🔑,
+        public mixed $🐬,
+    ) {
     }
 }
